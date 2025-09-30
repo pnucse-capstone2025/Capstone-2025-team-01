@@ -55,7 +55,7 @@ export default function AlbumPage() {
             title="정리 앨범 관리"
             description="필요에 따라 기능을 껐다 켤 수 있어요."
             onPress={() => {
-              router.push('/menu/CleanupAlbum');
+              router.push('/menu/cleanupAlbum');
             }}
           />
           <SettingRow
