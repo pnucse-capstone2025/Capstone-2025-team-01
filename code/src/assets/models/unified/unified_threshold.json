@@ -1,0 +1,17 @@
+{
+  "classes": [
+    "blur",
+    "chat",
+    "document",
+    "highcontrast",
+    "noobject"
+  ],
+  "thresholds_per_class": {
+    "blur": 0.98,
+    "chat": 0.98,
+    "document": 0.75,
+    "highcontrast": 0.9,
+    "noobject": 0.6
+  },
+  "notes": "가장 높은 확률을 가진 클래스가 자신의 임계값을 넘지 못하면 'others'로 처리"
+}
